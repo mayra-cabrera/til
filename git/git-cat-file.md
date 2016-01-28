@@ -9,4 +9,11 @@ $ git cat-file -p 08d16a7c
 kitties kitties kitties
 ```
 
-We only need to provide the first eight or so characters, we don't need to provide the whole sha
+We only need to provide the first eight or so characters, we don't need to provide the whole SHA.
+
+We can also use `cat-file`command with `-t`flag to display what type of object are we watching
+
+```bash
+$ git cat-file -t 08d16a7c
+commit
+```
