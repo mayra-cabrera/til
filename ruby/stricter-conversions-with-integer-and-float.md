@@ -1,6 +1,7 @@
 # Stricter conversions with integer and float
+*This is based on The Well Grounded Rubyiest book, you should definitly buy it*
 
-As a ruby programmer you probably have experimented with converting strings to integer, and ruby has some secret under their slive with this conversion:
+As a ruby programmer you probably have experimented with converting strings to integers, and ruby has some secret under their slive with this conversion:
 
 ```ruby
 "hello".to_i
@@ -33,5 +34,5 @@ Float("-3xyz")
 ArgumentError: invalid value for Float(): "-3xyz"
 ```
 
-So if you want to be strict about what gets converted and what gets rejected, `Integer` and `Float` can help you on
+So if you want to be strict about what gets converted and what gets rejected, `Integer` and `Float` can help you on :)
 
